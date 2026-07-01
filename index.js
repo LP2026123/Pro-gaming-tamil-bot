@@ -8,11 +8,9 @@ const client = new Client({
   ]
 });
 
-const TOKEN = "MTUyMTk5MTMwNTAwODM4NjM0Mw.GT2e3l.nFm-Iw6CXv2AuoTAp5i6KaKvcDINYWfaaXSrIg";
-
+const TOKEN = "MTUyMTk5MTMwNTAwODM4NjM0Mw.GjBxYF.CNLplRu2_FQmmHdvVZBg5RUDu_l1eqk6gTF-Z0
 client.once("ready", () => {
   console.log(`${client.user.tag} is Online!`);
 });
 
-console.log("TOKEN:", 
-process.env.TOKEN);
+console.log(process.env.TOKEN);
