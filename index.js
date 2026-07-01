@@ -14,4 +14,4 @@ client.once("ready", () => {
   console.log(`${client.user.tag} is Online!`);
 });
 
-client.login(TOKEN);
+client.login(process.env.TOKEN);
